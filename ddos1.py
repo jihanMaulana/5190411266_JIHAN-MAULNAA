@@ -17,10 +17,9 @@ bytes = random._urandom(1490)
 #############
 os.system("clear")
 os.system("figlet Newbie Tersakiti")
-print
-print "Author   : Newbie Tersakiti"
-print "TEAM     : Newbie Tersakiti"
-print "Tingkat  : Newbie Tersakiti"
+print ("Author   : Newbie Tersakiti")
+print ("TEAM     : Newbie Tersakiti")
+print ("Tingkat  : Newbie Tersakiti")
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
 os.system("clear")
