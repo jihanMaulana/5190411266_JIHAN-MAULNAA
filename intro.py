@@ -4,19 +4,19 @@ import time
 import socket
 import random
 
-time.sleep(0.3)
+time.sleep(1)
 print('     ___ _ __ ______ _ _      ')
-time.sleep(0.3)
+time.sleep(1)
 print('    / ___   /    |  _  \     ')
-time.sleep(0.3)
+time.sleep(1)
 print('   |/   /  / __  | |_)  |    ')
-time.sleep(0.3)
+time.sleep(1)
 print('       /  / /__\ |  ___/     ')
-time.sleep(0.3)
+time.sleep(1)
 print('      /  /       | |         ')
-time.sleep(0.3)
+time.sleep(1)
 print('     /  / __/ \__| |         ')
-time.sleep(0.3)
+time.sleep(1)
 print('                         ')
 print('\n')
 
